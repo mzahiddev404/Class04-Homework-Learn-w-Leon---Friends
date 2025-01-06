@@ -1,0 +1,84 @@
+/* Global Reset: Resets all default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Includes padding and borders in total width/height */
+}
+
+/* Body: Sets the background color and text color for the entire page */
+body {
+    background-color: rgb(151, 204, 232); /* Used Mac Color Magnet */
+    font-family: Arial, sans-serif;
+    color: white; /* Makes all text white by default */
+    line-height: 1.6; /* To improves text readability */
+}
+
+/* Header Section */
+header {
+    text-align: center; /* Centers the title and navigation */
+    padding: 20px; /* Adds space inside the header */
+    border-bottom: 3px solid #2ecc71; /* Green bottom border */
+}
+
+header h1 {
+    font-size: 2.5em; /* Larger font size for the main heading */
+    font-style: italic; /* Italicizes the title */
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none; /* Removes bullets from list */
+    display: flex; /* Aligns list items horizontally */
+    justify-content: center; /* Centers the navigation links */
+    gap: 20px; /* Adds spacing between the links */
+    margin-top: 10px; /* Adds space between header and links */
+}
+
+nav ul li {
+    display: inline; /* Ensures links are displayed inline */
+}
+
+/* Navigation Links (Portfolio and Social Media) */
+nav ul li a {
+    text-decoration: none; /* Removes underline */
+    color: #2ecc71; /* Green color for links */
+    font-weight: bold; /* Makes links bold */
+}
+
+nav ul li a:hover {
+    color: #27ae60; /* Darker green on hover */
+}
+
+/* Main Section: About Us */
+main {
+    text-align: center; /* Centers text in the main section */
+    padding: 20px; /* Adds padding around content */
+}
+
+main h2 {
+    font-size: 2em; /* Section title font size */
+    color: white; /* Ensures title text remains white */
+    margin-bottom: 15px; /* Adds spacing below the title */
+}
+
+main p {
+    margin-bottom: 10px; /* Adds space between paragraphs */
+    color: white; /* Makes paragraph text white */
+}
+
+/* Footer: Social Media Links */
+footer {
+    text-align: center; /* Centers the footer content */
+    margin-top: 20px; /* Adds space above the footer */
+    padding: 10px 0; /* Adds spacing inside the footer */
+    border-top: 3px solid #2ecc71; /* Green top border for separation */
+}
+
+footer nav ul li a {
+    color: #2ecc71; /* Green color for social media links */
+    transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+footer nav ul li a:hover {
+    color: #145a32; /* Darker green on hover */
+}
